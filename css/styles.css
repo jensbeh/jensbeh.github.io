@@ -1,0 +1,38 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+#intro {
+    height: 100vh;
+    background: rgb(95, 0, 0)
+}
+
+
+#intro-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#intro-content h1 {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    margin: 0;
+}
+
+#intro-content h2 {
+    color: rgb(204, 203, 203);
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0;
+}
