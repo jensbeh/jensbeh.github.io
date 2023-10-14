@@ -55,7 +55,7 @@ function loadLanguageData() {
 
   // Load json language file to dict
   $.ajax({ 
-    url:  './language/' +  localStorage.getItem('language') + '.json', 
+    url:  '/jensbeh.github.io//language/' +  localStorage.getItem('language') + '.json', 
     dataType: 'json',
     async: false,
     success: function (lang) {
