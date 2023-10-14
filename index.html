@@ -1,27 +1,204 @@
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-<head>
-    <title>Jens Portfolio</title>    
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <title>Jens Behmenburg</title>
 
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-    <div id="intro">
-        <div id="intro-content">
-
-            <h1>Jens Behmenburg</h1>
-            <h2>Bachelor of Science</h2>
-
-        </div>
-        <!-- End #intro-content -->
-
+  <!-- TEXTS WILL BE SET IN SKRIPT BECAUSE OF MULTIPLE LANGUAGES -->
+  <body>
+    <!-- Navigation Bar -->
+    <div class="topnav">
+      <a id="about_text" class="topnav_link_text" href="#about"><!-- about text --></a>
+      <a id="projects_text" class="topnav_link_text" href="#projects"><!-- projects text --></a>
+      <a id="skills_text" class="topnav_link_text" href="#skills"><!-- skills text --></a>
     </div>
-    <!-- End #intro -->
 
-    
+    <!-- Language Buttons -->
+    <div id="language_container">
+      <button class="language_button" onclick="setLanguage('de')">DE</button>
+      <button class="language_button" onclick="setLanguage('en')">EN</button>
+    </div>
+
+    <!-- Scroll To Top Button -->
+    <button onclick="scrollToTop()" id="scroll_to_top_button" title="Go to top">
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- CONTENT -->
+
+    <!-- Intro -->
+    <div id="intro">
+      <!-- Intro Content -->
+      <div id="intro_content">
+        <h1>Jens Behmenburg</h1>
+        <h2>Bachelor of Science</h2>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+      <h2 id="about_me_text"><!-- about text --></h2>
+      <div id="about_me_box">
+        <div id="about_me_image_box">
+          <img src="./images/me.jpg" id="about_me_image" alt="Me" />
+        </div>
+        <div id="about_me_text_box">
+          <p id="about_me_text_text_1"><!-- about me text --></p>
+          <p id="about_me_text_text_2"><!-- about me text --></p>
+          <p id="about_me_text_text_3"><!-- about me text --></p>
+          <p id="about_me_text_text_4"><!-- about me text --></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+
+    <div id="projects">
+      <h2 id="my_projects_text"><!-- my prjects text --></h2>
+      <div class="project_boxes">
+        <!-- Each div with the project-box class is a single project -->
+
+        <!-- Project Alpha -->
+        <div class="project_box">
+          <div class="project_box_text">
+            <h3>Project Alpha</h3>
+            <p id="project_alpha_text_text"><!-- Project Alpha text --></p>
+            <ul class="project_code_list">
+              <li>GDScript</li>
+            </ul>
+
+            <a href="https://github.com/jensbeh/project-se-kassel-project-alpha">
+              <div class="project_link">
+                <p class="show_project_text"><!-- show project text --></p>
+
+                <div class="github_image" alt="GitHub"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="project_box_image_box">
+            <img
+              src="./images/project_alpha/camp.png"
+              class="project_image"
+              alt="Project Alpha"
+            />
+          </div>
+        </div>
+
+        <hr class="project_divider">
+
+        <!-- Accord -->
+        <div class="project_box">
+          <div class="project_box_text">
+            <h3>Accord</h3>
+            <p id="accord_client_text_text"><!-- Accord text --></p>
+            <ul class="project_code_list">
+              <li>Java</li>
+              <li>CSS</li>
+            </ul>
+
+            <a href="https://github.com/jensbeh/accord-client">
+              <div class="project_link">
+                <p class="show_project_text"><!-- show project text --></p>
+
+                <div class="github_image" alt="GitHub"></div>
+              </div>
+            </a>
+            <a href="https://github.com/jensbeh/accord-server">
+              <div class="project_link">
+                <p class="show_server_text"><!-- show server text --></p>
+
+                <div class="github_image" alt="GitHub"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="project_box_image_box">
+            <img
+              src="./images/accord_client/demo_pic.png"
+              class="project_image"
+              alt="Accord"
+            />
+          </div>
+        </div>
+
+        <hr class="project_divider">
+
+        <!-- Android ESP32Cam -->
+        <div class="project_box">
+          <div class="project_box_text">
+            <h3>Android App - ESP32-CAM</h3>
+            <p id="android_esp32cam_text_text_1"><!-- Android ESP32Cam text --></p>
+            <p id="android_esp32cam_text_text_2"><!-- Android ESP32Cam text --></p>
+            <ul class="project_code_list">
+              <li>Java</li>
+            </ul>
+
+            <a href="https://github.com/jensbeh/esp32-cam-android-app">
+              <div class="project_link">
+                <p class="show_project_text"><!-- show project text --></p>
+
+                <div class="github_image" alt="GitHub"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="project_box_image_box">
+            <img
+              src="./images/android_esp32cam/android_esp32cam.png"
+              class="project_image"
+              alt="Android ESP32-Cam"
+              style="height: 500px; width: auto;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills">
+      <h2 id="my_skills_text" class="heading"><!-- my skills text --></h2>
+      <ul>
+        <li class="single_skill">Pascal</li>
+        <li class="single_skill">Python</li>
+        <li class="single_skill">Java</li>
+        <li class="single_skill">C</li>
+        <li class="single_skill">C#</li>
+        <li class="single_skill">C++</li>
+        <li class="single_skill">GDScript</li>
+        <li class="single_skill">Dart</li>
+        <li class="single_skill">HTML</li>
+        <li class="single_skill">JavaScript</li>
+        <li class="single_skill">CSS</li>
+        <li class="single_skill">SQL</li>
+        <li class="single_skill">InfluxDB</li>
+        <li class="single_skill">MongoDB</li>
+        <li class="single_skill">TeX</li>
+      </ul>
+    </div>
+
+    <!-- Footer/Copyright -->
+    <footer>
+      <div class="copyright">
+        <p>
+          Copyright &copy; <span id="current_year">202</span> Jens Behmenburg
+        </p>
+      </div>
+    </footer>
 
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>

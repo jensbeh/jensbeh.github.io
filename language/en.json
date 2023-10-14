@@ -1,0 +1,24 @@
+{ 
+    "about": "About", 
+    "projects": "Projects",
+    "skills": "Skills",
+
+
+    "about_me": "About Me",
+    "about_me_text_1": "My name is Jens Behmenburg and I studied at the University of Kassel in Germany. There I completed my Bachelor's degree in Computer Science. I am currently studying for a Master's degree in Computer Science.",
+    "about_me_text_2": "During my studies, I learned many programming languages and methods and tried out and developed many things in my free time.",
+    "about_me_text_3": "In my free time, I program apps for Android & Windows with Flutter in Dart, among other things. I am also working on the development of servers.",
+    "about_me_text_4": "I have also worked on various projects or developed entire projects myself.",
+
+    
+    "my_projects": "My Projects",
+    "show_project": "Show Project",
+    "show_server": "Show Server",
+
+    "project_alpha_text": "Project Alpha is a pixel art game played from a bird's eye view. You can fight, trade and explore. All this in a beautiful environment surrounded by NPCs, enemies and animals. But watch out! The game requires a tactical approach in order not to die in the wilderness.",
+    "accord_client_text": "Accord is an application that I developed with a group during my studies. This application is meant to be a Discord clone, where private chats, audio chats and servers exist.",
+    "android_esp32cam_text_1": "This app is for the ESP32-CAM into a security system with motion detection:",
+    "android_esp32cam_text_2": "The ESP hosts a WebServer that provides the camera stream and a WebSocketServer that is used to communicate commands between the Android app and the Esp. It also sends a notification to the Android app with an image when it detects motion.",
+    
+    "my_skills": "My Skills"
+}
