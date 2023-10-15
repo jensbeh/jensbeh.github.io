@@ -24,8 +24,10 @@ body {
   cursor: pointer;
   border-radius: 999px;
 }
-#scroll_to_top_button:hover {
-  background-color: rgb(122, 0, 0);
+@media (hover: hover) {
+  #scroll_to_top_button:hover {
+    background-color: rgb(122, 0, 0);
+  }
 }
 #scroll_to_top_button:active {
   background-color: rgb(70, 0, 0);
@@ -73,28 +75,17 @@ body {
   height: 1px;
   transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
-/*
-.topnav_link_text:hover {
-  color: #bebebe;
-}
-.topnav_link_text:hover::after {
-  right: 0;
-  height: 2px;
-  background-color: #f2f2f2;
-}
-*/
 @media (hover: hover) {
   .topnav_link_text:hover {
     color: #bebebe;
   }
-  
+
   .topnav_link_text:hover::after {
     right: 0;
     height: 2px;
     background-color: #f2f2f2;
   }
 }
-
 .topnav_link_text:active {
   background-color: #f2f2f2;
   color: black;
@@ -129,13 +120,15 @@ body {
   height: 1px;
   transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
-.language_button:hover {
-  color: #bebebe;
-}
-.language_button:hover::after {
-  right: 0;
-  height: 2px;
-  background-color: #f2f2f2;
+@media (hover: hover) {
+  .language_button:hover {
+    color: #bebebe;
+  }
+  .language_button:hover::after {
+    right: 0;
+    height: 2px;
+    background-color: #f2f2f2;
+  }
 }
 .language_button:active {
   background-color: #f2f2f2;
@@ -218,8 +211,10 @@ body {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Hinzufügen des Schattens */
   transition: transform 0.3s;
 }
-#about_me_image:hover {
-  transform: scale(1.05);
+@media (hover: hover) {
+  #about_me_image:hover {
+    transform: scale(1.05);
+  }
 }
 #about_me_text_box {
   margin-left: 40px;
@@ -340,22 +335,24 @@ body {
   padding-left: 5px;
   color: black;
 }
-.project_link:hover::after,
-.project_link:focus:after {
-  right: 0;
-  background: rgb(95, 0, 0);
+@media (hover: hover) {
+  .project_link:hover::after {
+    right: 0;
+    background: rgb(95, 0, 0);
+  }
+  .project_link:hover p {
+    color: white;
+  }
+  .project_link:hover .github_image {
+    background-image: url("../images/github-mark-white.png");
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+  }
 }
-.project_link:hover p {
-  color: white;
-}
-.project_link:hover .github_image {
-  background-image: url("../images/github-mark-white.png");
-  position: absolute;
-  right: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 30px;
-}
+
 .github_image {
   background-image: url("../images/github-mark.png");
   background-size: contain;
@@ -386,8 +383,10 @@ body {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Hinzufügen des Schattens */
   transition: transform 0.3s;
 }
-.project_image:hover {
-  transform: scale(1.03);
+@media (hover: hover) {
+  .project_image:hover {
+    transform: scale(1.03);
+  }
 }
 
 /* SKILLS AREA */
