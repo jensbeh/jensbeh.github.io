@@ -73,6 +73,7 @@ body {
   height: 1px;
   transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
+/*
 .topnav_link_text:hover {
   color: #bebebe;
 }
@@ -81,6 +82,19 @@ body {
   height: 2px;
   background-color: #f2f2f2;
 }
+*/
+@media (hover: hover) {
+  .topnav_link_text:hover {
+    color: #bebebe;
+  }
+  
+  .topnav_link_text:hover::after {
+    right: 0;
+    height: 2px;
+    background-color: #f2f2f2;
+  }
+}
+
 .topnav_link_text:active {
   background-color: #f2f2f2;
   color: black;
