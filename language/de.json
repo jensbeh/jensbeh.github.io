@@ -15,7 +15,8 @@
     "show_server": "Server zeigen",
 
     "project_alpha_text": "Project Alpha ist ein Pixel-Art-Spiel, das aus der Vogelperspektive gespielt wird. Du kannst kämpfen, handeln und erkunden. Und das alles in einer wunderschönen Umgebung, umgeben von NPCs, Feinden und Tieren. Aber aufgepasst! Das Spiel erfordert ein taktisches Vorgehen, um nicht in der Wildnis zu sterben.",
-    "accord_client_text": "Accord ist eine Anwendung, die ich mit einer Gruppe während meines Studiums entwickelt habe. Diese Anwendung soll ein Discord-Klon sein, in dem es private Chats, Audio-Chats und Server gibt.",
+    "accord_client_text_1": "Accord ist eine Anwendung, die ich mit einer Gruppe während meines Studiums entwickelt habe. Diese Anwendung soll ein Discord-Klon sein, in dem es private Chats, Audio-Chats und Server gibt.",
+    "accord_client_text_2": "Außerdem habe ich hierfür einen Server entwickelt, der mit MySQL und Spring Boot läuft.",
     "android_esp32cam_text_1": "Diese App ist für den Einbau der ESP32-CAM in ein Sicherheitssystem mit Bewegungserkennung:",
     "android_esp32cam_text_2": "Der ESP beherbergt einen WebServer, der den Kamerastream bereitstellt, und einen WebSocketServer, der für die Kommunikation von Befehlen zwischen der Android-App und dem ESP verwendet wird. Er sendet auch eine Benachrichtigung mit einem Bild an die Android-App, wenn er eine Bewegung erkennt.",
 

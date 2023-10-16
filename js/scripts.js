@@ -94,7 +94,8 @@ function updateLanguageInElements() {
   // Project Alpha
   $('#project_alpha_text_text').text(languageDict.project_alpha_text);
   // Accord
-  $('#accord_client_text_text').text(languageDict.accord_client_text);
+  $('#accord_client_text_text_1').text(languageDict.accord_client_text_1);
+  $('#accord_client_text_text_2').text(languageDict.accord_client_text_2);
   // Android ESP32-Cam
   $('#android_esp32cam_text_text_1').text(languageDict.android_esp32cam_text_1);
   $('#android_esp32cam_text_text_2').text(languageDict.android_esp32cam_text_2);
