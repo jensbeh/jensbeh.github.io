@@ -115,6 +115,9 @@ function updateLanguageInElements() {
   // Android ESP32-Cam
   $('#esp32cam_text_text_1').text(languageDict.esp32cam_text_1);
   $('#esp32cam_text_text_2').text(languageDict.esp32cam_text_2);
+  // Mini-RPG
+  $('#minirpg_text_text_1').text(languageDict.minirpg_text_1);
+  $('#minirpg_text_text_2').text(languageDict.minirpg_text_2);
   
   // My Skills
   $('#my_skills_text').text(languageDict.my_skills);

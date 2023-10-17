@@ -29,7 +29,10 @@
     "esp32cam_text_1": "Die ESP32-CAM zusammen mit der Android-App ist eine hervorragende Kombination für ein Sicherheitssystem mit Bewegungserkennung.",
     "esp32cam_text_2": "Die ESP32-CAM verfügt über einen WebServer, der den Kamerastream bereitstellt und einen WebSocketServer, der für die Kommunikation von Befehlen zwischen der Android-App und der ESP32-CAM verwendet wird. Darüber hinaus sendet die ESP32-CAM eine Benachrichtigung mit einem Bild an die Android-App, wenn sie eine Bewegung erkennt, welches dann in der App angeschaut werden kann. Auch die Kamerastreams können in der App angeschaut und Bilder und Videos davon aufgenommen werden. Ebenso können die Kameraeinstellungen der ESP32-CAM hierrüber geändert werden.",
 
+    "minirpg_text_1": "Das Mini-RPG war ein Uniprojekt welches wir alleine während des Semesters entwickeln sollten.",
+    "minirpg_text_2": "Es ist ein einfaches Mini-RPG-Spiel, in dem du verschiedene Helden erstellen kannst, um gegen Feinde zu kämpfen. Das Spiel wird in einer 2D-Klickansicht präsentiert und bietet Funktionen wie Dungeons mit Feinden, Kämpfe durch Angreifen und Verteidigen, Beute und einen Hardcore-Modus. Das Ziel des Spiels ist es, mit dem Helden Runden gegen Feinde zu kämpfen und zu überleben, sowie ihn aufzuleveln.",
 
-    
+
+
     "my_skills": "Meine Skills"
 }
