@@ -85,10 +85,25 @@ function updateLanguageInElements() {
   show_project_texts.forEach((show_project_text) => {
     show_project_text.textContent = languageDict.show_project;
   });
+  // Show Client Button Text
+  const show_client_texts = document.querySelectorAll('.show_client_text');
+  show_client_texts.forEach((show_client_text) => {
+    show_client_text.textContent = languageDict.show_client;
+  });
   // Show Server Button Text
   const show_server_texts = document.querySelectorAll('.show_server_text');
   show_server_texts.forEach((show_server_text) => {
     show_server_text.textContent = languageDict.show_server;
+  });
+  // Show Android App Button Text
+  const show_android_app_texts = document.querySelectorAll('.show_android_app_text');
+  show_android_app_texts.forEach((show_android_app_text) => {
+    show_android_app_text.textContent = languageDict.show_android_app;
+  });
+  // Show ESP32 Project Button Text
+  const show_esp32_project_texts = document.querySelectorAll('.show_esp32_project_app_text');
+  show_esp32_project_texts.forEach((show_esp32_project_text) => {
+    show_esp32_project_text.textContent = languageDict.show_esp32_project;
   });
   
   // Project Alpha
@@ -96,9 +111,10 @@ function updateLanguageInElements() {
   // Accord
   $('#accord_client_text_text_1').text(languageDict.accord_client_text_1);
   $('#accord_client_text_text_2').text(languageDict.accord_client_text_2);
+  $('#accord_client_text_text_3').text(languageDict.accord_client_text_3);
   // Android ESP32-Cam
-  $('#android_esp32cam_text_text_1').text(languageDict.android_esp32cam_text_1);
-  $('#android_esp32cam_text_text_2').text(languageDict.android_esp32cam_text_2);
+  $('#esp32cam_text_text_1').text(languageDict.esp32cam_text_1);
+  $('#esp32cam_text_text_2').text(languageDict.esp32cam_text_2);
   
   // My Skills
   $('#my_skills_text').text(languageDict.my_skills);
