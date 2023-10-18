@@ -32,6 +32,8 @@
     "minirpg_text_1": "Das Mini-RPG war ein Uniprojekt welches wir alleine während des Semesters entwickeln sollten.",
     "minirpg_text_2": "Es ist ein einfaches Mini-RPG-Spiel, in dem du verschiedene Helden erstellen kannst, um gegen Feinde zu kämpfen. Das Spiel wird in einer 2D-Klickansicht präsentiert und bietet Funktionen wie Dungeons mit Feinden, Kämpfe durch Angreifen und Verteidigen, Beute und einen Hardcore-Modus. Das Ziel des Spiels ist es, mit dem Helden Runden gegen Feinde zu kämpfen und zu überleben, sowie ihn aufzuleveln.",
 
+    "android_calculator_text_1": "Dieser Taschenrechner ist eines meiner ersten Android Java Projekte.\nIn ihm können komplexere Formeln mit Klammern ausgewertet werden. Allerdings sind im Moment noch nicht alle Funktionen implementiert.",
+
 
 
     "my_skills": "Meine Skills"

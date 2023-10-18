@@ -300,6 +300,10 @@ body {
   flex-basis: 40%;
 }
 
+.project_box_text p {
+  white-space: pre-line;
+}
+
 .project_code_list {
   list-style-position: inside;
   padding: 0;

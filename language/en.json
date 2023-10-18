@@ -32,6 +32,8 @@
     "minirpg_text_1": "The Mini-RPG was a university project that we had to develop on our own during the semester.",
     "minirpg_text_2": "It is a simple mini RPG game where you can create different heroes to fight against enemies. The game is presented in a 2D click view and offers features such as dungeons with enemies, battles by attacking and defending, loot and a hardcore mode. The aim of the game is to fight rounds with the hero against enemies and survive, as well as level him up.",
 
+    "android_calculator_text_1": "This calculator is one of my first Android Java projects.\nIn it, more complex formulas can be evaluated with brackets. However, not all functions are implemented at the moment.",
+
 
 
     "my_skills": "My Skills"

@@ -118,6 +118,8 @@ function updateLanguageInElements() {
   // Mini-RPG
   $('#minirpg_text_text_1').text(languageDict.minirpg_text_1);
   $('#minirpg_text_text_2').text(languageDict.minirpg_text_2);
+  // Android Calculator
+  $('#android_calculator_text_text_1').text(languageDict.android_calculator_text_1);
   
   // My Skills
   $('#my_skills_text').text(languageDict.my_skills);
