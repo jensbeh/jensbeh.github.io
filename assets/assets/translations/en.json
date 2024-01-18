@@ -1,0 +1,41 @@
+{
+  "about": "About",
+  "projects": "Projects",
+  "skills": "Skills",
+
+
+
+  "about_me": "About Me",
+  "about_me_text_1": "My name is Jens Behmenburg and I studied at the University of Kassel in Germany. There I completed my Bachelor's degree in Computer Science. I am currently studying for a Master's degree in Computer Science.",
+  "about_me_text_2": "During my studies, I learned many programming languages and methods and tried out and developed many things in my free time.",
+  "about_me_text_3": "In my free time, I program apps for Android & Windows with Flutter in Dart, among other things. I am also working on the development of servers.",
+  "about_me_text_4": "I have also worked on various projects or developed entire projects myself.",
+
+
+
+  "my_projects": "My Projects",
+  "show_project": "Show Project",
+  "show_github": "Show Github",
+  "show_client": "Show Client",
+  "show_server": "Show Server",
+  "show_android_app": "Show Android App",
+  "show_esp32_project": "Show ESP32-CAM",
+
+  "project_alpha_text": "Project Alpha is a pixel art game played from a bird's eye view. You can fight, trade and explore. All this in a beautiful environment surrounded by NPCs, enemies and animals. But watch out! The game requires a tactical approach in order not to die in the wilderness.",
+
+  "accord_client_text_1": "Accord is an application that I developed with a group during my studies. This application is meant to be a Discord clone, where private chats, audio chats and servers exist.",
+  "accord_client_text_2": "I also developed a server for it that runs with MySQL and Spring Boot.",
+  "accord_client_text_3": "I have also programmed an Android Java app version of Accord, but this was only for experimental purposes and therefore has an experimental status with fewer functions.",
+
+  "esp32cam_text_1": "The ESP32-CAM together with the Android app is an excellent combination for a security system with motion detection.",
+  "esp32cam_text_2": "The ESP32-CAM has a WebServer that provides the camera stream and a WebSocketServer that is used to communicate commands between the Android app and the ESP32-CAM. In addition, the ESP32-CAM sends a notification with an image to the Android app when it detects motion, which can then be viewed in the app. The camera streams can also be viewed in the app as well as pictures and videos can be taken of them. The camera settings of the ESP32-CAM can also be changed via this app.",
+
+  "minirpg_text_1": "The Mini-RPG was a university project that we had to develop on our own during the semester.",
+  "minirpg_text_2": "It is a simple mini RPG game where you can create different heroes to fight against enemies. The game is presented in a 2D click view and offers features such as dungeons with enemies, battles by attacking and defending, loot and a hardcore mode. The aim of the game is to fight rounds with the hero against enemies and survive, as well as level him up.",
+
+  "android_calculator_text_1": "This calculator is one of my first Android Java projects.\nIn it, more complex formulas can be evaluated with brackets. However, not all functions are implemented at the moment.",
+
+
+
+  "my_skills": "My Skills"
+}
